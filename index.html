@@ -4,40 +4,33 @@
   <meta charset="UTF-8">
   <title>Maker404 – Project Not Found?</title>
   <link rel="stylesheet" href="/assets/style.css">
-  <style>
-    /* Logo tweak */
-    .hero .logo {
-      max-width: 150px;
-      margin: 0 auto 1rem;
-      display: block;
-    }
-    /* Ensure grid sits below hero */
-    .cards {
-      margin-top: 2rem;
-    }
-  </style>
 </head>
 <body>
-  <nav>
-    <a href="/">Home</a> |
-    <a href="/start-here/">Start Here</a> |
-    <a href="/404-challenges/">Challenges</a> |
-    <a href="/blog/">Blog</a> |
-    <a href="/downloads/">Downloads</a> |
-    <a href="/tools/">Tools</a>
-  </nav>
+
+  <header class="site-header">
+    <a href="/" class="logo-link">
+      <img src="/assets/logo.png" alt="Maker404 Logo" class="logo">
+    </a>
+    <nav class="site-nav">
+      <a href="/">Home</a>
+      <a href="/start-here/">Start Here</a>
+      <a href="/404-challenges/">Challenges</a>
+      <a href="/blog/">Blog</a>
+      <a href="/downloads/">Downloads</a>
+      <a href="/tools/">Tools</a>
+    </nav>
+  </header>
 
   <main>
-    <!-- Hero + Logo -->
     <section class="hero">
-      <img src="/assets/logo.png" alt="Maker404 Logo" class="logo">
       <h1>Welcome to Maker404</h1>
       <p>Project not found? No worries — we’re here to help K–6 tech teachers bring creativity, challenge, and fun to every classroom.</p>
-      <a class="button" href="/start-here/">I’m New – Start Here</a>
-      <a class="button" href="/404-challenges/">Try a 404 Challenge</a>
+      <div class="hero-buttons">
+        <a class="button" href="/start-here/">I’m New – Start Here</a>
+        <a class="button" href="/404-challenges/">Try a 404 Challenge</a>
+      </div>
     </section>
 
-    <!-- Card Grid -->
     <section class="cards">
       <div class="card">
         <h3>Start Here</h3>
@@ -66,5 +59,6 @@
       </div>
     </section>
   </main>
+
 </body>
 </html>
