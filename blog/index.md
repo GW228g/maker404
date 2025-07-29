@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Blog
+title: Maker Blog
 ---
 
-<h1>Maker Blog</h1>
-<ul>
+<div class="cards">
   {% for post in site.posts %}
-    <li>
-      <strong>{{ post.date | date: "%Y-%m-%d" }}</strong> –
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <div class="card">
+      <h2>{{ post.title }}</h2>
+      <p class="date">📅 {{ post.date | date: "%B %-d, %Y" }}</p>
+      <p>{{ post.excerpt }}</p>
+      <a href="{{ post.url }}" class="button">Read More »</a>
+    </div>
   {% endfor %}
-</ul>
+</div>
