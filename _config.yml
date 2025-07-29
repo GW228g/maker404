@@ -1,0 +1,12 @@
+title: Maker404
+description: Project Not Found? We’ve Got You.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://maker404.com" # your custom domain
+theme: minima
+plugins:
+  - jekyll-feed
+
+collections:
+  challenges:
+    output: true
+    permalink: /404-challenges/:title/
