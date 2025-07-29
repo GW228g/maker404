@@ -7,7 +7,7 @@ title: 404 Challenges
   {% for challenge in site.challenges %}
     <div class="card">
       <h2>{{ challenge.title }}</h2>
-      <p class="date">📅 {{ challenge.date | date: "%B %-d, %Y" }}</p>
+      <p class="date"> {{ challenge.date | date: "%B %-d, %Y" }}</p>
       <p>{{ challenge.excerpt }}</p>
       <a href="{{ challenge.url }}" class="button">View Challenge »</a>
     </div>
