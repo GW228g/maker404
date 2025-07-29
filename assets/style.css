@@ -1,101 +1,23 @@
-/* ——— Global ——— */
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f4f4f9;
-  color: #333;
-}
-a { text-decoration: none; }
-
-/* ——— Header & Nav ——— */
-.site-header {
-  background: #f4f4f9;        /* cream background matching logo */
-  border-bottom: 1px solid #e0e0e0;
-  display: flex;
-  align-items: center;
-  padding: 0.5rem 1rem;
-}
-.logo {
-  height: 40px;
-}
-.site-nav {
-  margin-left: auto;
-}
-.site-nav a {
-  margin-left: 1rem;
-  color: #007acc;
-  font-weight: bold;
-}
-.site-nav a:hover {
-  text-decoration: underline;
-}
-
-/* ——— Hero ——— */
+/* Hero */
 .hero {
   text-align: center;
   padding: 3rem 1rem;
   background: white;
 }
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  color: #007acc;
-}
-.hero p {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
-}
-.hero-buttons .button {
-  margin: 0 0.5rem;
-}
+.hero h1 { color: #007acc; font-size: 2.5rem; margin-bottom: .5rem; }
+.hero p { margin-bottom: 1.5rem; }
 
-/* ——— Buttons ——— */
-.button {
-  display: inline-block;
-  background: #007acc;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 4px;
-  font-weight: bold;
-  transition: background 0.2s;
-}
-.button:hover {
-  background: #005f99;
-}
-
-/* ——— Cards ——— */
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
-  padding: 2rem 1rem;
-}
+/* Cards */
+.cards { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; padding: 2rem 1rem; }
 .card {
   background: white;
   border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 12px rgba(0,0,0,.06);
   width: 280px;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
 }
-.card h3 {
-  margin-top: 0;
-  color: #007acc;
-}
-.card p {
-  flex-grow: 1;
-  margin: 0.75rem 0;
-  color: #555;
-}
-.card .button {
-  align-self: start;
-}
-
-/* ——— Responsive ——— */
-@media (max-width: 600px) {
-  .cards { flex-direction: column; align-items: center; }
-  .site-header { flex-direction: column; }
-  .site-nav { margin: 0.5rem 0 0; }
-}
+.card h3 { color: #007acc; margin-top: 0; }
+.card p { flex-grow: 1; color: #555; margin: .75rem 0; }
+.card .button { align-self: start; }
