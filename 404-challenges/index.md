@@ -3,8 +3,6 @@ layout: default
 title: 404 Challenges
 ---
 
-<h1>404 Challenges</h1>
-
 <div class="cards">
   {% for challenge in site.challenges %}
     <div class="card">
