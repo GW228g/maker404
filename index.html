@@ -1,43 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Maker404 - Project Not Found? We’ve Got You.</title>
+  <title>Maker404 – Project Not Found?</title>
   <link rel="stylesheet" href="/assets/style.css">
   <style>
     /* Logo tweak */
     .hero .logo {
       max-width: 150px;
-      margin: 0 auto 1.5rem;
+      margin: 0 auto 1rem;
       display: block;
+    }
+    /* Ensure grid sits below hero */
+    .cards {
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="/">Home</a> |
+    <a href="/start-here/">Start Here</a> |
+    <a href="/404-challenges/">Challenges</a> |
+    <a href="/blog/">Blog</a> |
+    <a href="/downloads/">Downloads</a> |
+    <a href="/tools/">Tools</a>
+  </nav>
 
-<nav>
-  <a href="/">Home</a>
-  <a href="/start-here/">Start Here</a>
-  <a href="/404-challenges/">Challenges</a>
-  <a href="/blog/">Blog</a>
-  <a href="/downloads/">Downloads</a>
-  <a href="/tools/">Tools</a>
-</nav>
+  <main>
+    <!-- Hero + Logo -->
+    <section class="hero">
+      <img src="/assets/logo.png" alt="Maker404 Logo" class="logo">
+      <h1>Welcome to Maker404</h1>
+      <p>Project not found? No worries — we’re here to help K–6 tech teachers bring creativity, challenge, and fun to every classroom.</p>
+      <a class="button" href="/start-here/">I’m New – Start Here</a>
+      <a class="button" href="/404-challenges/">Try a 404 Challenge</a>
+    </section>
 
-<section class="hero">
-  <!-- Logo -->
-  <img src="/assets/logo.png" alt="Maker404 Logo" class="logo">
-
-  <h1>Welcome to Maker404</h1>
-  <p>Project not found? No worries — we're here to help K–6 tech teachers bring creativity, challenge, and fun to every classroom.</p>
-  <a class="button" href="/start-here/">I'm New – Start Here</a>
-  <a class="button" href="/404-challenges/">Try a 404 Challenge</a>
-</section>
-
-<main>
-  <h2>What is Maker404?</h2>
-  <p>We're a hub for K–6 educators looking for quick, fail-forward, and engaging makerspace and technology projects. We curate videos, share classroom-tested ideas, and help teachers save time without sacrificing creativity.</p>
-</main>
-
+    <!-- Card Grid -->
+    <section class="cards">
+      <div class="card">
+        <h3>Start Here</h3>
+        <p>A quick guide to get new tech/maker teachers up and running.</p>
+        <a href="/start-here/" class="button">Go »</a>
+      </div>
+      <div class="card">
+        <h3>404 Challenges</h3>
+        <p>Low-prep, failure-friendly mini projects to spark creativity.</p>
+        <a href="/404-challenges/" class="button">Try One »</a>
+      </div>
+      <div class="card">
+        <h3>Maker Blog</h3>
+        <p>Curated video spotlights and classroom tips.</p>
+        <a href="/blog/" class="button">Read »</a>
+      </div>
+      <div class="card">
+        <h3>Downloads</h3>
+        <p>PDF lesson plans and resource kits (coming soon!).</p>
+        <a href="/downloads/" class="button">Download »</a>
+      </div>
+      <div class="card">
+        <h3>Tools</h3>
+        <p>Our favorite gear, software, and consumables.</p>
+        <a href="/tools/" class="button">View »</a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
