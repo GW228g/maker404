@@ -4,11 +4,14 @@ title: 404 Challenges
 ---
 
 <h1>404 Challenges</h1>
-<ul>
+
+<div class="cards">
   {% for challenge in site.challenges %}
-    <li>
-      <strong>{{ challenge.date | date: "%Y-%m-%d" }}</strong> –
-      <a href="{{ challenge.url }}">{{ challenge.title }}</a>
-    </li>
+    <div class="card">
+      <h2>{{ challenge.title }}</h2>
+      <p class="date">📅 {{ challenge.date | date: "%B %-d, %Y" }}</p>
+      <p>{{ challenge.excerpt }}</p>
+      <a href="{{ challenge.url }}" class="button">View Challenge »</a>
+    </div>
   {% endfor %}
-</ul>
+</div>
