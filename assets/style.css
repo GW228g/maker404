@@ -5,16 +5,32 @@ body {
   background: #f4f4f9;
   color: #333;
 }
-nav {
-  background-color: #007acc;
-  padding: 1rem;
-  text-align: center;
+/* ——— Banner & Nav ——— */
+.site-nav {
+  background-color: #f4f4f9;   /* cream/off-white matching the logo background */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
+.nav-inner {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.nav-logo {
+  height: 40px;                /* adjust to taste */
+}
+.nav-links {
+  margin-left: auto;
+}
+.nav-links a {
+  margin-left: 1rem;
+  color: #007acc;              /* accent color from your palette */
   font-weight: bold;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  text-decoration: underline;
 }
 main {
   padding: 2rem;
