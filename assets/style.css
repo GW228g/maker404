@@ -33,3 +33,52 @@ main {
 .card p small {
   color: #888;
 }
+/* Container for the cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Individual cards */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card heading */
+.card h2 {
+  margin-top: 0;
+  color: #007acc;
+  font-size: 1.25rem;
+}
+
+/* Date styling */
+.card .date {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.5rem 0 1rem;
+}
+
+/* Button inside cards */
+.card .button {
+  margin-top: auto;
+  background: #f8c146;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.card .button:hover {
+  background: #e0ad2e;
+}
