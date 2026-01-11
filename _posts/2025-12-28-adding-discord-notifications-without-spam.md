@@ -6,50 +6,63 @@ categories: [minecraft, automation]
 tags: [discord, notifications, webhooks, scripting]
 ---
 
-# Adding Discord Notifications Without Creating Noise
+# Adding Discord Notifications Without Spam
 
-The first version of my server automation worked — but it was silent.
+When I first automated my Minecraft server, everything *worked* — but it worked silently.
 
-Silence is ambiguous:
-- Did the backup run?
-- Did the server restart?
-- Did anything fail?
+At first, that felt great. No pop-ups. No alerts. No noise.
 
-So I added Discord notifications.
+Then the doubts crept in.
 
-Then I added too many.
+Did the backup actually run?  
+Did the server restart cleanly?  
+Would I notice if something failed?
 
-This post is about how I moved from “post everything” to a setup that’s actually useful: **one high-signal summary**, with details saved locally when needed.
-
----
-
-## The Trap of Over-Notification
-
-Once you have a webhook, it’s tempting to post:
-- chat previews
-- command logs
-- screenshots and map images
-- debug output
-
-I did that. It worked briefly… and then it became noise.
-
-> Notifications should summarize, not narrate.
+That uncertainty was what pushed me to integrate Discord notifications. Unfortunately, my *first* attempt went too far in the opposite direction.
 
 ---
 
-## What Actually Matters Daily
+## The First Mistake: Posting Everything
 
-After observing the server for a while, I narrowed it down to:
+Once you have a Discord webhook, it’s dangerously easy to post everything the script touches:
+
+- every chat line  
+- every command  
+- every file generated  
+- every map image  
+- every debug message  
+
+Technically impressive — completely unusable.
+
+After a few days, the Discord channel became something everyone muted. That was the moment I realized an important rule:
+
+> **If notifications are noisy, they get ignored.**
+
+---
+
+## Deciding What Actually Matters
+
+I stepped back and asked a simpler question:
+
+> “If I only read *one message per day*, what would I want it to tell me?”
+
+The answer turned out to be very small:
 
 1. Did the backup succeed?
-2. Did the server restart cleanly?
-3. Who joined and left recently?
+2. Did the server restart properly?
+3. Did anyone join or leave?
 4. Were there whitelist blocks?
 5. Did the maps publish successfully?
 
+Everything else could live quietly on disk.
+
 ---
 
-## One Clean Daily Summary
+## Designing a High-Signal Summary
+
+Instead of streaming logs into Discord, the script now **builds one summary at the end**.
+
+Example:
 
 ```text
 📅 Daily Minecraft Report
@@ -61,4 +74,31 @@ After observing the server for a while, I narrowed it down to:
 🚫 Not whitelisted (1): PlayerX
 ```
 
-No spam. No scrolling. Just signal.
+One message. Once per day. No scrolling required.
+
+---
+
+## Making Notifications Resilient
+
+Another important lesson: **notifications should never be allowed to break the backup**.
+
+The script:
+- checks for network availability
+- gracefully skips Discord if offline
+- treats webhook failures as non-fatal
+
+That way, the server stays healthy even if Discord doesn’t.
+
+---
+
+## Why This Matters More Than It Sounds
+
+This change made the entire system feel *trustworthy*.
+
+I didn’t need to babysit the server.
+I didn’t need to scroll logs.
+I didn’t need to guess.
+
+Discord became a confidence check — not a firehose.
+
+With notifications under control, it was finally safe to expand the system further.

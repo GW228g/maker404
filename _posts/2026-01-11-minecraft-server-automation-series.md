@@ -8,17 +8,22 @@ tags: [minecraft, series, automation]
 
 # Minecraft Server Automation Series
 
-This series documents how a personal Minecraft server was turned into a fully automated system:
+This series documents how a personal Minecraft server evolved into something reliable, boring, and safe.
 
-- reliable backups
-- clean restarts
-- minimal notifications
-- interactive maps
-- automated publishing
+The goal wasn’t complexity — it was confidence.
 
-## Posts in This Series
+## The Series
 
-- Automating Minecraft Server Backups
-- Adding Discord Notifications Without Spam
-- Generating Interactive Minecraft Maps with uNmINeD
-- Hosting Automated Minecraft Maps with Cloudflare Pages
+1. **Automating Minecraft Server Backups**  
+   Protecting the world with a reliable daily pipeline.
+
+2. **Adding Discord Notifications Without Spam**  
+   Turning alerts into signal instead of noise.
+
+3. **Generating Interactive Minecraft Maps with uNmINeD**  
+   Visualizing world history from backup snapshots.
+
+4. **Hosting Automated Minecraft Maps with Cloudflare Pages**  
+   Publishing maps to a stable HTTPS URL without servers.
+
+Each post builds on the previous one, forming a complete automation story.
