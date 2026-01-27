@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Teaching Rotation Strategies to Young Athletes
 date: 2026-01-16
 ---
