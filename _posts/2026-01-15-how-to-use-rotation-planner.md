@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: How to Use the 4v4 Rotation Planner Tool
 date: 2026-01-15
 ---
