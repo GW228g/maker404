@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Why Fair Playing Time Matters in Youth Sports
 date: 2026-01-14
 ---
