@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 5 Tips for Managing Youth Basketball Rotations
 date: 2026-01-13
 ---
