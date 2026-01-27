@@ -111,3 +111,89 @@ a {
     align-items: center;
   }
 }
+/* ——— Blog Post Layout ——— */
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main .card {
+  width: 100%;
+  max-width: 100%;
+  padding: 2rem;
+}
+
+main .card h1 {
+  color: #007acc;
+  margin-top: 0;
+}
+
+main .card h2 {
+  color: #007acc;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+main .card h3 {
+  margin-top: 1.5rem;
+}
+
+main .card p {
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+main .card ul, main .card ol {
+  line-height: 1.8;
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+main .card blockquote {
+  border-left: 4px solid #007acc;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: #555;
+  font-style: italic;
+}
+
+main .card hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 2rem 0;
+}
+
+main .card a {
+  color: #007acc;
+  text-decoration: underline;
+}
+
+main .card a:hover {
+  color: #005f99;
+}
+
+.post-meta {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* ——— Footer ——— */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #f4f4f9;
+  color: #666;
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+}
+
+footer a {
+  color: #007acc;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
