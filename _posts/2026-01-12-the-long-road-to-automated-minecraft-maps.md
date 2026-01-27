@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "The Long Road to Automated Minecraft Maps"
 date: 2026-01-12
 categories: [minecraft, automation, cloudflare]
