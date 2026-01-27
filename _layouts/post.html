@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | Maker404</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <nav>
+    <a href="/">Home</a> |
+    <a href="/start-here/">Start Here</a> |
+    <a href="/404-challenges/">Challenges</a> |
+    <a href="/blog/">Blog</a> |
+    <a href="/downloads/">Downloads</a> |
+    <a href="/tools/">Tools</a>
+  </nav>
+  <main>
+    <article class="card">
+      <h1>{{ page.title }}</h1>
+      <p class="post-meta"><small>📅 {{ page.date | date: "%B %d, %Y" }}</small></p>
+      {{ content }}
+      <hr>
+      <p><a href="/blog/">← Back to Blog</a></p>
+    </article>
+  </main>
+  <footer>
+    <p>
+      <a href="/about/">About</a> | 
+      <a href="/contact/">Contact</a> | 
+      <a href="/privacy/">Privacy Policy</a>
+    </p>
+    <p><small>© 2026 Maker404. All rights reserved.</small></p>
+  </footer>
+</body>
+</html>
