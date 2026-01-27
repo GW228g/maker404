@@ -11,26 +11,30 @@ body {
   background: #f4f4f9;
   color: #333;
 }
+
 a {
   text-decoration: none;
 }
 
 /* ——— Header & Nav ——— */
 .site-header {
-  background: #f4f4f9;        /* cream background matching logo */
+  background: #f4f4f9;
   border-bottom: 1px solid #e0e0e0;
   display: flex;
   align-items: center;
   padding: 0.5rem 1rem;
 }
+
 .site-nav {
   margin-left: auto;
 }
+
 .site-nav a {
   margin-left: 1rem;
   color: #007acc;
   font-weight: bold;
 }
+
 .site-nav a:hover {
   text-decoration: underline;
 }
@@ -40,16 +44,22 @@ a {
   text-align: center;
   padding: 3rem 1rem;
   background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2rem;
 }
+
 .hero h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   color: #007acc;
 }
+
 .hero p {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
 }
+
 .hero-buttons .button {
   margin: 0 0.5rem;
 }
@@ -58,17 +68,20 @@ a {
 .button {
   display: inline-block;
   background: #007acc;
-  color: white;
+  color: white !important;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
   font-weight: bold;
   transition: background 0.2s;
-}
-.button:hover {
-  background: #005f99;
+  text-decoration: none !important;
 }
 
-/* ——— Cards ——— */
+.button:hover {
+  background: #005f99;
+  color: white !important;
+}
+
+/* ——— Homepage Cards Grid ——— */
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -76,7 +89,8 @@ a {
   justify-content: center;
   padding: 2rem 1rem;
 }
-.card {
+
+.cards .card {
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
@@ -85,32 +99,22 @@ a {
   display: flex;
   flex-direction: column;
 }
-.card h3 {
+
+.cards .card h3 {
   margin-top: 0;
   color: #007acc;
 }
-.card p {
+
+.cards .card p {
   flex-grow: 1;
   margin: 0.75rem 0;
   color: #555;
 }
-.card .button {
+
+.cards .card .button {
   align-self: start;
 }
 
-/* ——— Responsive ——— */
-@media (max-width: 600px) {
-  .site-header {
-    flex-direction: column;
-  }
-  .site-nav {
-    margin: 0.5rem 0 0;
-  }
-  .cards {
-    flex-direction: column;
-    align-items: center;
-  }
-}
 /* ——— Blog Post Layout ——— */
 main {
   padding: 2rem;
@@ -118,10 +122,15 @@ main {
   margin: 0 auto;
 }
 
+/* Blog post article card */
 main .card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   width: 100%;
   max-width: 100%;
   padding: 2rem;
+  margin-bottom: 2rem;
 }
 
 main .card h1 {
@@ -136,18 +145,25 @@ main .card h2 {
 }
 
 main .card h3 {
+  color: #007acc;
   margin-top: 1.5rem;
 }
 
 main .card p {
   line-height: 1.6;
   margin: 1rem 0;
+  color: #333;
 }
 
 main .card ul, main .card ol {
   line-height: 1.8;
   margin: 1rem 0;
   padding-left: 2rem;
+  color: #333;
+}
+
+main .card li {
+  margin-bottom: 0.5rem;
 }
 
 main .card blockquote {
@@ -164,18 +180,52 @@ main .card hr {
   margin: 2rem 0;
 }
 
-main .card a {
+/* Links inside blog posts (but not buttons) */
+main .card a:not(.button) {
   color: #007acc;
   text-decoration: underline;
 }
 
-main .card a:hover {
+main .card a:not(.button):hover {
   color: #005f99;
 }
 
 .post-meta {
   color: #888;
   font-size: 0.9rem;
+}
+
+/* Blog listing styles */
+.blog-list {
+  display: grid;
+  gap: 2rem;
+}
+
+.blog-post-preview {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.blog-post-preview h3 {
+  margin-top: 0;
+  color: #007acc;
+}
+
+.blog-post-preview h3 a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+.blog-post-preview h3 a:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  color: #888;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
 }
 
 /* ——— Footer ——— */
@@ -196,4 +246,28 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+/* ——— Responsive ——— */
+@media (max-width: 600px) {
+  .site-header {
+    flex-direction: column;
+  }
+  
+  .site-nav {
+    margin: 0.5rem 0 0;
+  }
+  
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+  }
 }
