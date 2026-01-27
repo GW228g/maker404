@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Paper Roller Coaster Challenge"
 date: 2024-07-29
 ---
