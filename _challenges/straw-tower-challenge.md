@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Straw Tower Challenge"
+date: 2024-07-29
+---
 # Straw Tower Challenge
 
 **Grade Level:** K-6  
