@@ -3,7 +3,6 @@ layout: default
 title: "Cup Stack Claw"
 date: 2024-07-29
 ---
-# Cup Stack Claw
 
 **Grade Level:** 2-6  
 **Time:** 45-60 minutes  
