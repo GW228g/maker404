@@ -2,14 +2,12 @@
 layout: default
 title: Maker Blog
 ---
-
-<div class="cards">
+<div class="blog-list">
   {% for post in site.posts %}
-    <div class="card">
-      <h2>{{ post.title }}</h2>
-      <p class="date">📅 {{ post.date | date: "%B %-d, %Y" }}</p>
-      <p>{{ post.excerpt }}</p>
+    <article class="blog-post-preview">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
       <a href="{{ post.url }}" class="button">Read More »</a>
-    </div>
+    </article>
   {% endfor %}
 </div>
