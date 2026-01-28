@@ -3,8 +3,6 @@ layout: default
 title: "Balloon-Powered Car"
 date: 2024-07-29
 ---
-# Balloon-Powered Car
-
 **Grade Level:** 2-6  
 **Time:** 45-60 minutes  
 **Group Size:** 2-3 students per team
