@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Paper Clip Chain Reaction"
+date: 2024-07-29
+---
 # Paper Clip Chain Reaction
 
 **Grade Level:** K-6 (adaptable)  
