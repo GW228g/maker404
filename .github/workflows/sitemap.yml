@@ -5,24 +5,61 @@ on:
     branches: [ main ]
   schedule:
     - cron: '0 2 * * *'  # Daily at 2am
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   sitemap:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
       
       - name: Generate sitemap
         run: |
-          find . -name "*.html" -type f > files.txt
-          
           echo '<?xml version="1.0" encoding="UTF-8"?>' > sitemap.xml
           echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap.xml
           
-          while read file; do
+          # Add homepage
+          echo '  <url>' >> sitemap.xml
+          echo '    <loc>https://maker404.com/</loc>' >> sitemap.xml
+          echo '    <lastmod>'$(date +%Y-%m-%d)'</lastmod>' >> sitemap.xml
+          echo '    <changefreq>daily</changefreq>' >> sitemap.xml
+          echo '    <priority>1.0</priority>' >> sitemap.xml
+          echo '  </url>' >> sitemap.xml
+          
+          # Find all HTML files and add them
+          find . -name "*.html" -not -path "./_site/*" -not -path "./.*" -type f | while read file; do
+            # Convert file path to URL
             url="https://maker404.com${file#.}"
-            echo "  <url><loc>$url</loc></url>" >> sitemap.xml
-          done < files.txt
+            url="${url%.html}"  # Remove .html extension if you want clean URLs
+            # Or keep this line instead if you want .html in URLs:
+            # url="https://maker404.com${file#.}"
+            
+            echo '  <url>' >> sitemap.xml
+            echo '    <loc>'$url'</loc>' >> sitemap.xml
+            echo '    <lastmod>'$(date +%Y-%m-%d)'</lastmod>' >> sitemap.xml
+            echo '    <changefreq>weekly</changefreq>' >> sitemap.xml
+            echo '    <priority>0.8</priority>' >> sitemap.xml
+            echo '  </url>' >> sitemap.xml
+          done
+          
+          # Find all markdown files (if Jekyll converts them)
+          find . -name "*.md" -not -path "./_site/*" -not -path "./.*" -not -name "README.md" -type f | while read file; do
+            # Convert .md to URL (Jekyll converts .md to .html)
+            url="https://maker404.com${file#.}"
+            url="${url%.md}"  # Remove .md, Jekyll will serve as .html or clean URL
+            
+            echo '  <url>' >> sitemap.xml
+            echo '    <loc>'$url'</loc>' >> sitemap.xml
+            echo '    <lastmod>'$(date +%Y-%m-%d)'</lastmod>' >> sitemap.xml
+            echo '    <changefreq>weekly</changefreq>' >> sitemap.xml
+            echo '    <priority>0.8</priority>' >> sitemap.xml
+            echo '  </url>' >> sitemap.xml
+          done
           
           echo '</urlset>' >> sitemap.xml
       
@@ -31,5 +68,5 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add sitemap.xml
-          git commit -m "Auto-update sitemap" || exit 0
+          git diff --staged --quiet || git commit -m "Auto-update sitemap"
           git push
