@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact Us
+permalink: /contact/
 ---
 
 ## Get in Touch
@@ -8,7 +9,7 @@ title: Contact Us
 We'd love to hear from you!
 
 ### Email
-[contact@maker404.com](mailto:contact@maker404.com)
+[project@maker404.com](mailto:project@maker404.com)
 
 ### Questions We Can Help With
 - Questions about 404 Challenges
