@@ -117,7 +117,7 @@ These materials were created by migrating older Finch lessons to the Finch2 libr
 - ✅ Challenge problems for differentiation
 - ✅ Real-world applications and examples
 
-[Read the full story: How I Used AI to Modernize 30+ Lessons →](/blog/2026/02/12/ai-lesson-migration/)
+[Read the full story: How I Used AI to Modernize 30+ Lessons →](/teaching/ai/robotics/stem/2026/02/12/ai-lesson-migration)
 
 ---
 
