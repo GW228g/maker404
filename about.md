@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About Maker404
+permalink: /about/
 ---
 
 ## About Maker404
@@ -23,9 +24,6 @@ To make technology education accessible, fun, and meaningful for elementary stud
 
 Our rotation planner tool (rotations.maker404.com) helps youth basketball coaches manage fair playing time across 8-period games. It's designed to be offline-first and mobile-friendly for use during games.
 
-### Contact
-
-Questions or feedback? Reach us at [contact@maker404.com](mailto:contact@maker404.com)
 
 ---
 
