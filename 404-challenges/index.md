@@ -3,8 +3,6 @@ layout: default
 title: 404 Challenges
 ---
 
-# 404 Challenges
-
 ## What Are 404 Challenges?
 
 **Project not found? Perfect.** That's exactly where the best learning happens.
@@ -41,7 +39,7 @@ These challenges embrace productive failure. We deliberately create projects whe
 
 ## Ready-to-Use Challenges
 
-<div class="challenge-grid">
+<div class="challenge-grid" markdown="1">
 
 ### 🦖 Cardboard Creature
 **Grade Level:** K-6 | **Time:** 45-60 minutes | **Materials:** Cardboard, tape, scissors
