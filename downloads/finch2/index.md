@@ -6,8 +6,6 @@ keywords: "finch robot, finch2, python programming, robotics curriculum, STEM ed
 permalink: /downloads/finch2/
 ---
 
-# Finch2 Robot Programming Curriculum
-
 **Free Python lessons and activities for the BirdBrain Finch2 robot**
 
 <div class="download-hero">
