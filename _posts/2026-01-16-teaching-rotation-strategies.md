@@ -6,6 +6,8 @@ date: 2026-01-16
 
 One aspect of coaching that often gets overlooked is teaching young players about rotations themselves. While coaches spend hours planning substitution patterns, players often don't understand why rotations matter or how they work. By educating your athletes about rotation strategies, you help them develop basketball IQ, maturity, and team-first attitudes that will serve them throughout their sports careers.
 
+Those same habits translate to classroom routines where students need to understand turn-taking, role clarity, and shared responsibility.
+
 ## Why Players Need to Understand Rotations
 
 When players understand the "why" behind rotations, several positive outcomes emerge:

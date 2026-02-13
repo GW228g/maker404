@@ -9,6 +9,8 @@ As a tech teacher and parent, I spend a lot of time teaching kids that **technol
 
 This weekend, I did both. I built a working web app to solve a coaching problem I've been wrestling with all season—and I did it using the same maker mindset I teach my students.
 
+This same workflow transfers directly to classroom projects: identify a real problem, prototype a simple tool, test it with users, and iterate.
+
 ## The Problem: Fair Playing Time Is Hard
 
 I coach my kid's basketball team, and like most youth coaches, I struggle with keeping rotations fair. Six players, four on the court at a time, trying to make sure everyone gets equal minutes while also keeping the right combinations together.

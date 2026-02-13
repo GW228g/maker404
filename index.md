@@ -7,7 +7,7 @@ title: Welcome to Maker404
   <h1>Welcome to Maker404</h1>
   <p>Project not found? No worries — we're here to help K–6 tech teachers bring creativity, challenge, and fun to every classroom.</p>
   
-  <p>Whether you're a brand-new tech teacher wondering where to start, a makerspace facilitator looking for quick project ideas, or an experienced educator exploring new tools, you're in the right place. We believe that technology education works best when it's hands-on, failure-friendly, and rooted in curiosity.</p>
+  <p>Whether you're a brand-new tech teacher wondering where to start, a makerspace facilitator looking for quick project ideas, or an experienced educator exploring new tools, you're in the right place. We believe technology education works best when it's hands-on, failure-friendly, and rooted in curiosity across both school and home projects.</p>
   
   <p>Our resources are designed for real classrooms with real constraints—limited budgets, limited time, and students with varying skill levels. From cardboard and tape to micro:bits and coding, we focus on what actually works with elementary students.</p>
   
@@ -32,7 +32,7 @@ title: Welcome to Maker404
   
   <div class="card">
     <h3>Maker Blog</h3>
-    <p>Real stories from the classroom and beyond. Read about building tools that solve real problems, lesson plans that actually work, and the intersection of teaching, technology, and creative problem-solving. Practical insights for educators navigating the world of maker education.</p>
+    <p>Real stories from classroom teaching and home projects. Read how the same maker process applies to school lessons, family projects, and practical tools (including youth sports coaching workflows), with a focus on transferable tech skills for educators.</p>
     <a href="/blog/" class="button">Read »</a>
   </div>
   
