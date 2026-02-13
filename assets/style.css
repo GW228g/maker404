@@ -271,3 +271,87 @@ footer a:hover {
     font-size: 2rem;
   }
 }
+/* ========================================
+   FINCH2 DOWNLOADS PAGE STYLING
+   Add this to your existing assets/style.css
+   ======================================== */
+
+.download-hero {
+  background: #f0f7ff;
+  border-left: 4px solid #2563eb;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  font-size: 1.1rem;
+  border-radius: 0.375rem;
+}
+
+.download-hero a {
+  font-weight: bold;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.download-hero a:hover {
+  text-decoration: underline;
+}
+
+.download-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.download-grid h3 {
+  margin-top: 0;
+  color: #1e40af;
+  font-size: 1.25rem;
+}
+
+.download-btn {
+  display: inline-block;
+  background: #2563eb;
+  color: white !important;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  text-decoration: none !important;
+  font-weight: 600;
+  transition: background 0.2s;
+  margin-top: 0.5rem;
+}
+
+.download-btn:hover {
+  background: #1e40af;
+  text-decoration: none !important;
+}
+
+/* Make download sections stand out */
+.download-grid > div {
+  border: 1px solid #e5e7eb;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: #fafafa;
+}
+
+/* Responsive grid for larger screens */
+@media (min-width: 768px) {
+  .download-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .download-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Download page specific styling */
+.download-grid p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+.download-grid strong {
+  color: #1f2937;
+}
