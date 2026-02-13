@@ -121,14 +121,6 @@ These materials were created by migrating older Finch lessons to the Finch2 libr
 
 ---
 
-## 📧 Feedback & Updates
-
-Found these helpful? Have suggestions for improvements? [Let me know!](/contact/)
-
-Want notifications when new resources are added? [Subscribe to updates](/contact/)
-
----
-
 ## ⚖️ License
 
 These materials are **free for educational use**. You may:
