@@ -24,6 +24,8 @@ To make technology education accessible, fun, and meaningful for elementary stud
 
 Our rotation planner tool (rotations.maker404.com) helps youth basketball coaches manage fair playing time across 8-period games. It's designed to be offline-first and mobile-friendly for use during games.
 
+Our Pixel Studio web app (pixel-studio.maker404.com) is a fun drawing app for making those pixel perfect retro drawings for students and young children.
+
 
 ---
 
