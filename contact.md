@@ -8,9 +8,6 @@ permalink: /contact/
 
 We'd love to hear from you!
 
-### Email
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSet2WCYVBKsTHbRcBpg13CV6lLI-HGWPtf4egTBO6mppZjrVA/viewform?embedded=true" width="640" height="1162" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
 ### Questions We Can Help With
 - Questions about 404 Challenges
 - Tool feedback or bug reports
@@ -19,6 +16,11 @@ We'd love to hear from you!
 
 ### Response Time
 We typically respond within 2-3 business days.
+
+### Email
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSet2WCYVBKsTHbRcBpg13CV6lLI-HGWPtf4egTBO6mppZjrVA/viewform?embedded=true" width="640" height="1300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
 
 ---
 
