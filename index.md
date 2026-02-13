@@ -30,7 +30,7 @@ title: Welcome to Maker404
   </div>
   <div class="card">
     <h3>Downloads</h3>
-    <p>PDF lesson plans and resource kits (coming soon!).</p>
+    <p>PDF lesson plans and resources.</p>
     <a href="/downloads/" class="button">Download »</a>
   </div>
   <div class="card">
