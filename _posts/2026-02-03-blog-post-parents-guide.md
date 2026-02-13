@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Best Free Pixel Art App for Kids: A Complete Parent's Guide to Pixel Studio"
-date: 2025-02-03
+date: 2026-02-03
 categories: [kids, education, digital-art]
 description: "Discover a free, safe pixel art app for kids ages 6-11. No login required, works offline, and perfect for elementary students learning digital art."
 keywords: "free pixel art app for kids, digital art for elementary students, safe drawing app for children, pixel art for beginners, kids art app no login"

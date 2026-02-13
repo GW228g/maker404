@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pixel Art for Beginners: How to Create Amazing Characters & Sprites"
-date: 2025-02-03
+date: 2026-02-03
 categories: [tutorial, pixel-art, beginner]
 description: "Learn pixel art with our beginner-friendly guide! Step-by-step tutorials, pro tips, and creative ideas for making awesome pixel art characters, animals, and game sprites."
 keywords: "how to make pixel art, pixel art tutorial for beginners, pixel art tips, create pixel art characters, pixel art game sprites, easy pixel art ideas"
