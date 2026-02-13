@@ -10,8 +10,8 @@ permalink: /downloads/finch2/
 
 **Free Python lessons and activities for the BirdBrain Finch2 robot**
 
-<div class="download-hero" markdown="1">
-📦 **[Download Complete Set (ZIP)](files/Finch2_Complete_Curriculum.zip)** - All 11 files in one click (99 KB)
+<div class="download-hero">
+📦 <strong><a href="files/Finch2_Complete_Curriculum.zip">Download Complete Set (ZIP)</a></strong> - All 11 files in one click (99 KB)
 </div>
 
 Last updated: February 2026 | [Read the creation story →](/blog/2026/02/12/ai-lesson-migration/)
@@ -21,8 +21,6 @@ Last updated: February 2026 | [Read the creation story →](/blog/2026/02/12/ai-
 ## 📚 Core Lessons
 
 Perfect for introducing students to robotics and Python programming. Start with Lesson 1 and progress through the series.
-
-<div class="download-grid" markdown="1">
 
 ### Lesson 1: Moving the Finch
 **Topics:** `setMotors()`, basic movement, speed control  
@@ -49,15 +47,11 @@ Perfect for introducing students to robotics and Python programming. Start with 
 **Level:** Intermediate  
 [📥 Download (.docx)](files/Lesson_5_Temperature_Sensor.docx){: .download-btn}
 
-</div>
-
 ---
 
 ## 🎯 Bonus Activities
 
 Advanced projects that teach real-world robotics concepts. Great for students who have completed the core lessons.
-
-<div class="download-grid" markdown="1">
 
 ### Activity 1: Obstacle Avoider Robot
 Build an autonomous robot that navigates around obstacles using distance sensors.  
@@ -89,19 +83,13 @@ Advanced navigation using the built-in compass for GPS-like wayfinding.
 **Level:** Advanced  
 [📥 Download (.docx)](files/Bonus_Activity_5_Compass_Navigator.docx){: .download-btn}
 
-</div>
-
 ---
 
 ## 📖 Reference Materials
 
-<div class="download-grid" markdown="1">
-
 ### Finch2 Migration Guide
 Side-by-side comparison of old vs. new Finch syntax. Essential for updating existing lessons or understanding library changes.  
 [📥 Download (.docx)](files/Finch2_Migration_Guide.docx){: .download-btn}
-
-</div>
 
 ---
 
