@@ -6,6 +6,7 @@ url: "https://maker404.com"
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 collections:
   challenges:

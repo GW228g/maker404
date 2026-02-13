@@ -10,7 +10,7 @@ Ready-to-use lesson plans, activity guides, and reference materials for your cla
 
 ## 📄 Lesson Plans & Guides
 
-* **[60-Minute Maker Challenges](/downloads/10-Minute-Maker-Challenges.pdf)** – Quick, failure-friendly projects for K-6 classrooms
+* **[60-Minute Maker Challenges](/downloads/60-Minute-Maker-Challenges.pdf)** – Quick, failure-friendly projects for K-6 classrooms
 * **[First Week of Makerspace Lesson Plan](/downloads/First-Week-Makerspace-Lesson-Plan.pdf)** – 5-day curriculum for building maker culture
 
 ## 🛠️ Supply Lists & Checklists

@@ -4,9 +4,7 @@ title: How to Use the 4v4 Rotation Planner Tool
 date: 2026-01-15
 ---
 
-# How to Use the 4v4 Rotation Planner Tool
-
-Managing rotations during a youth basketball game can be stressful. Between coaching, keeping track of time, and managing substitutions, it's easy to lose track of who's played and who's sitting. That's why we built the 4v4 Rotation Planner—a free, mobile-friendly tool that takes the math out of managing fair rotations.
+Managing rotations during a youth basketball game can be stressful. Between coaching, keeping track of time, and managing substitutions, it's easy to lose track of who's played and who's sitting. That's why we built the 4v4 Rotation Planner-a free, mobile-friendly tool that takes the math out of managing fair rotations.
 
 This guide will walk you through everything you need to know to use the tool effectively.
 

@@ -6,8 +6,6 @@ categories: [teaching, ai, robotics, stem]
 excerpt: "A teacher's guide to leveraging Claude AI for educational content migration. Learn how I updated an entire robotics curriculum in less than an hour."
 ---
 
-# How I Used AI to Modernize 30+ Educational Robotics Lessons in Under an Hour
-
 *A Teacher's Guide to Leveraging Claude AI for Educational Content Migration*
 
 ---

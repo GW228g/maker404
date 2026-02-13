@@ -4,9 +4,7 @@ title: Why Fair Playing Time Matters in Youth Sports
 date: 2026-01-14
 ---
 
-# Why Fair Playing Time Matters in Youth Sports
-
-One of the most debated topics in youth sports is playing time. Should every player get equal minutes? Should the best players play more? As coaches and parents navigate these questions, it's worth stepping back to understand why fair playing time is so crucial in youth athletics—and what "fair" actually means at different age levels.
+One of the most debated topics in youth sports is playing time. Should every player get equal minutes? Should the best players play more? As coaches and parents navigate these questions, it's worth stepping back to understand why fair playing time is so crucial in youth athletics-and what "fair" actually means at different age levels.
 
 ## The Developmental Impact of Playing Time
 

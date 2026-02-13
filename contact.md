@@ -18,7 +18,7 @@ We'd love to hear from you!
 We typically respond within 2-3 business days.
 
 ### Email
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSet2WCYVBKsTHbRcBpg13CV6lLI-HGWPtf4egTBO6mppZjrVA/viewform?embedded=true" width="640" height="1300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSet2WCYVBKsTHbRcBpg13CV6lLI-HGWPtf4egTBO6mppZjrVA/viewform?embedded=true" width="640" height="1300" style="width:100%;max-width:640px;border:0;" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 
 

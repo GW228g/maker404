@@ -5,8 +5,6 @@ date: 2026-01-11
 categories: [maker-projects, AI, web-apps]
 ---
 
-# How I Built a Basketball Rotation App in One Weekend (With AI Help)
-
 As a tech teacher and parent, I spend a lot of time teaching kids that **technology is a tool for solving real problems**. But there's a difference between telling students "you can build anything" and actually showing them it's true.
 
 This weekend, I did both. I built a working web app to solve a coaching problem I've been wrestling with all season—and I did it using the same maker mindset I teach my students.
@@ -116,4 +114,3 @@ For those interested in the technical details:
 **Bottom line:** Technology isn't magic. It's just tools and problem-solving—the same stuff we teach in makerspace. If a busy parent and teacher can build a working app in a weekend, imagine what our students can do.
 
 Let's show them what's possible.
-
