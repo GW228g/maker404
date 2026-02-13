@@ -5,11 +5,14 @@ title: Welcome to Maker404
 
 <section class="hero">
   <h1>Welcome to Maker404</h1>
-  <p>Project not found? No worries — we're here to help K–6 tech teachers bring creativity, challenge, and fun to every classroom.</p>
-  
-  <p>Whether you're a brand-new tech teacher wondering where to start, a makerspace facilitator looking for quick project ideas, or an experienced educator exploring new tools, you're in the right place. We believe technology education works best when it's hands-on, failure-friendly, and rooted in curiosity across both school and home projects.</p>
-  
-  <p>Our resources are designed for real classrooms with real constraints—limited budgets, limited time, and students with varying skill levels. From cardboard and tape to micro:bits and coding, we focus on what actually works with elementary students.</p>
+
+<p>Project not found? No worries — we're here to help K–6 tech teachers and curious families bring creativity, challenge, and fun to learning everywhere.</p>
+
+<p>Whether you're a brand-new tech teacher wondering where to start, a makerspace facilitator looking for quick project ideas, or a parent experimenting with new tools at home, you're in the right place. We believe technology is most powerful when it’s hands-on, failure-friendly, and rooted in curiosity — both in the classroom and around the kitchen table.</p>
+
+<p>Maker404 isn’t just built from theory. It’s built from real classrooms and real family life. As educators and parents, we use technology every day to solve problems, coach teams, build projects, and explore new ideas with the kids around us. Sometimes that means designing classroom maker challenges. Sometimes it means building a basketball rotation planner for game day. Sometimes it means launching a pixel drawing studio just to see what young artists will create.</p>
+
+<p>Our resources are designed for real-world constraints — limited budgets, limited time, and students with varying skill levels. From cardboard and tape to micro:bits, coding tools, and practical web apps, we focus on what actually works with elementary learners — and what helps families use technology intentionally at home.</p>
   
   <p>
     <a class="button" href="/start-here/">I'm New – Start Here</a>
