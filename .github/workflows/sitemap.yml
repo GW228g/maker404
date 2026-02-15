@@ -4,15 +4,15 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 2 * * *'  # Daily at 2am
-  workflow_dispatch:  # Allow manual triggering
+    - cron: '0 2 * * *'
+  workflow_dispatch:
 
 jobs:
   sitemap:
     runs-on: ubuntu-latest
     
     permissions:
-      contents: write  # FIX: This allows the workflow to push changes
+      contents: write
     
     steps:
       - uses: actions/checkout@v3
@@ -21,30 +21,66 @@ jobs:
           
       - name: Generate sitemap
         run: |
-          # Find HTML files but EXCLUDE _layouts, _includes, and other Jekyll directories
-          find . -name "*.html" -type f \
-            ! -path "./_layouts/*" \
-            ! -path "./_includes/*" \
-            ! -path "./_site/*" \
-            ! -path "./node_modules/*" \
-            ! -path "./.git/*" \
-            > files.txt
+          # Create temp file for all URLs
+          > urls.txt
           
-          # Start sitemap
+          # Find markdown files (excluding special Jekyll files)
+          find . -name "*.md" -type f \
+            ! -path "./_*" \
+            ! -path "./.*" \
+            ! -path "./node_modules/*" \
+            ! -name "README.md" \
+            ! -name "LICENSE.md" \
+            | while read file; do
+              # Convert file path to URL path
+              # Remove leading ./
+              url_path="${file#./}"
+              # Remove .md extension
+              url_path="${url_path%.md}"
+              # If it ends with /index, remove that
+              url_path="${url_path%/index}"
+              # If it's empty (was index.md), make it just /
+              if [ -z "$url_path" ]; then
+                url_path=""
+              fi
+              echo "https://maker404.com/$url_path" >> urls.txt
+            done
+          
+          # Find HTML files (excluding Jekyll internals)
+          find . -name "*.html" -type f \
+            ! -path "./_*" \
+            ! -path "./.*" \
+            ! -path "./node_modules/*" \
+            | while read file; do
+              # Convert file path to URL
+              url_path="${file#./}"
+              # If it ends with /index.html, remove that
+              url_path="${url_path%/index.html}"
+              # If it ends with .html, keep it
+              echo "https://maker404.com/$url_path" >> urls.txt
+            done
+          
+          # Remove duplicates and sort
+          sort -u urls.txt > urls_unique.txt
+          
+          # Generate sitemap XML
           echo '<?xml version="1.0" encoding="UTF-8"?>' > sitemap.xml
           echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap.xml
           
-          # Add each file to sitemap
-          while read file; do
-            url="https://maker404.com${file#.}"
-            echo "  <url><loc>$url</loc></url>" >> sitemap.xml
-          done < files.txt
+          while read url; do
+            echo "  <url>" >> sitemap.xml
+            echo "    <loc>$url</loc>" >> sitemap.xml
+            echo "    <changefreq>weekly</changefreq>" >> sitemap.xml
+            echo "  </url>" >> sitemap.xml
+          done < urls_unique.txt
           
-          # Close sitemap
           echo '</urlset>' >> sitemap.xml
           
-          # Show what we generated (for debugging)
-          echo "Generated sitemap with $(cat files.txt | wc -l) URLs"
+          # Cleanup temp files
+          rm urls.txt urls_unique.txt
+          
+          # Show what we generated
+          echo "Generated sitemap with $(grep -c "<loc>" sitemap.xml) URLs"
           
       - name: Commit sitemap
         run: |
@@ -52,7 +88,6 @@ jobs:
           git config user.email "actions@github.com"
           git add sitemap.xml
           
-          # Only commit if there are changes
           if git diff --staged --quiet; then
             echo "No changes to sitemap"
           else
