@@ -12,6 +12,8 @@ Ready-to-use lesson plans, activity guides, and reference materials for your cla
 
 * **[60-Minute Maker Challenges](/downloads/60-Minute-Maker-Challenges.pdf)** – Quick, failure-friendly projects for K-6 classrooms
 * **[First Week of Makerspace Lesson Plan](/downloads/First-Week-Makerspace-Lesson-Plan.pdf)** – 5-day curriculum for building maker culture
+* **[De-Extinction STEM Week Project](/downloads/DeExtinction_STEM_Project.docx)** – Editable teacher guide and student worksheets for grades 4-6
+* **[De-Extinction Four Activities Pack](/downloads/DeExtinction_Four_Activities.docx)** – Extension activities for modeling, design, research, and media literacy
 
 ## 🛠️ Supply Lists & Checklists
 
