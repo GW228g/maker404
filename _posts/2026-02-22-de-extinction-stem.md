@@ -6,7 +6,7 @@ categories: [education, ai-tools, stem, project-based-learning]
 excerpt: "How I used AI to build a full de-extinction STEM week project for grades 4-6, including printable worksheets and extension activities."
 ---
 
-Let me start with an honest confession: I am not a classroom teacher. I'm a maker, a tinkerer, someone who gets excited about ideas and wants to share them. But I care a lot about education — and I've spent time thinking about what makes kids genuinely *curious* rather than just compliant.
+Let me start with an honest confession: I am not a grade level teacher, but rather a technology teacher, and I'm a maker, a tinkerer, someone who gets excited about ideas and wants to share them. But I care a lot about education — and I've spent time thinking about what makes kids genuinely *curious* rather than just compliant.
 
 So when the idea of a STEM week project on **de-extinction** crossed my mind — you know, the whole "should we bring back the woolly mammoth?" question — I wanted to see how far I could run with it. And I wanted to use AI as my co-creator.
 
