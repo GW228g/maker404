@@ -1,142 +1,149 @@
 ---
 layout: post
-title: "From Dinosaurs to DNA: How AI Helped Me Build an Entire STEM Week Project in an Afternoon"
+title: "From Dinosaurs to DNA: Building a Full STEAM Week Project With a Little Help From AI"
 date: 2026-02-22
-categories: [education, ai-tools, stem, project-based-learning]
-excerpt: "How I used AI to build a full de-extinction STEM week project for grades 4-6, including printable worksheets and extension activities."
+categories: [education, ai-tools, steam, project-based-learning]
+excerpt: "How I used AI to build a complete de-extinction STEAM week project for grades 4-6, with editable worksheets and extension activities."
 ---
 
-Let me start with an honest confession: I am not a grade level teacher, but rather a technology teacher, and I'm a maker, a tinkerer, someone who gets excited about ideas and wants to share them. But I care a lot about education — and I've spent time thinking about what makes kids genuinely *curious* rather than just compliant.
+Every year we run a STEAM Week at school — a dedicated stretch of time where we step away from the regular curriculum and dive deep into something thematic, hands-on, and genuinely exciting for kids. This year's theme: **Prehistoric Times**.
 
-So when the idea of a STEM week project on **de-extinction** crossed my mind — you know, the whole "should we bring back the woolly mammoth?" question — I wanted to see how far I could run with it. And I wanted to use AI as my co-creator.
+As the K–6 technology teacher, STEAM Week is my Super Bowl. It's the event I look forward to most, and also the one that requires the most upfront planning. Because it's not just about picking a cool topic — it's about building something that works across grade levels, ties together science, art, math, and design, and actually *sticks* with students after the week is over.
 
-What followed was a genuinely surprising afternoon.
+This year, I wanted to push beyond the usual "build a dinosaur diorama" territory and tackle something that would get older students — grades 4 through 6 — thinking hard, arguing with each other, and genuinely wrestling with a question that doesn't have a clean answer.
 
----
+That question: **Should we use DNA and genetic technology to bring extinct prehistoric animals back to life?**
 
-## The Idea: De-Extinction as a STEM Springboard
-
-De-extinction is one of those topics that hits every note a good STEM project should:
-
-- It's **real science** happening right now (Colossal Biosciences is literally doing this)
-- It's **inherently controversial** — there's no clean "right answer"
-- It touches **multiple disciplines**: genetics, ecology, ethics, math, even media literacy
-- And perhaps most importantly — **kids already have opinions about it**
-
-Ask a 5th grader whether we should bring back the T-Rex and you will not get silence. That's where good projects start.
-
-The target age group here is **grades 4 through 6**, roughly 9–12 year olds. Old enough to handle nuance, young enough that a classroom rebranded as a "Colossal Biosciences Research Division" with lab coats and ID badges is still genuinely thrilling.
+And to build it out, I leaned heavily on AI.
 
 ---
 
-## What AI Made Possible (That Would Have Taken Days Otherwise)
+## Why De-Extinction?
 
-Here's the thing about busy teachers and parents putting together enrichment projects: the ideas are rarely the problem. It's the *execution*. Turning a good idea into a structured, ready-to-print, educator-friendly resource normally takes hours. Lesson plan, learning objectives, worksheets with appropriate reading levels, answer keys, discussion questions, differentiation for advanced students...
+The prehistoric theme could go a hundred directions. Fossils, geology, ancient ecosystems, the five mass extinctions, the asteroid impact, early humans — all great. But de-extinction sat at a unique intersection that made it perfect for upper elementary STEAM:
 
-I used Claude to build this out, and the conversation went something like this:
-
-1. I described the concept and the age group
-2. Claude generated a full 5-day project framework
-3. I pushed for more hands-on activities, more debate structure, more real-world connection
-4. Each time I asked "what else could we do?" it came back with genuinely different ideas
-5. From there, it built out printable worksheets — complete with writing lines, color-coded sections, tables, and challenge extensions
-
-The output included:
-
-- A **teacher guide** with a day-by-day schedule and vocabulary list
-- **5 core student worksheets** covering prehistoric animals, the science of de-extinction, environmental impact, debate prep, and a final verdict
-- **4 extension activity packs**: a population math modeling exercise, a creature design challenge, a research "case file" format called The Lazarus File, and a media literacy unit built around Colossal Biosciences specifically
-
-That's a full week of structured, differentiated, cross-curricular content. Built in an afternoon.
+- It's **happening right now**. Colossal Biosciences, a real company based in Texas, is actively working to bring back the woolly mammoth, the Tasmanian tiger, and the dodo using genetic engineering. This isn't science fiction — it's in the news.
+- It's **genuinely cross-curricular**. The science of DNA and genetics. The math of population growth. The environmental impact on ecosystems. The ethics of whether we *should* do something just because we *can*. Media literacy around how the story gets reported. That's science, math, social studies, and ELA in one project.
+- It connects the **prehistoric past directly to the present and future** — which is exactly the kind of thinking STEAM education is meant to build.
+- And honestly? **Kids already have opinions about it.** Ask a 5th grader whether we should bring back the T-Rex and the conversation starts itself.
 
 ---
 
-## The Activities Worth Highlighting
+## Where AI Came In
 
-A few of these stand out as genuinely memorable rather than just educational:
+Here's something I say to my students all the time: a tool is only as useful as the person using it. AI is the same way.
 
-### 📊 Population Modeling — Math That Actually Means Something
+I knew what I wanted this project to be. I had the pedagogical instincts, the knowledge of my students, and the understanding of what makes a good STEAM project for this age group. What I didn't have was time. Turning a strong idea into a complete, print-ready, educator-ready resource — with appropriate reading levels, scaffolded questions, differentiated extensions, and enough variety to fill five days — is a big lift on top of everything else a teacher is managing.
 
-Students start with 20 mammoths. The population doubles every 10 years. Each mammoth needs 500 km² of land. Siberia has 3.2 million km² of suitable habitat.
+So I used Claude as a thinking partner and a production engine. I'd describe what I was going for, push back when something wasn't quite right, ask for more hands-on angles, request harder questions for advanced students — and it would build. Fast.
 
-*When do they run out of space?*
+What came out the other side:
 
-Students fill in a table, plot a graph, watch exponential growth happen with their own pencil, and then face a committee decision: introduce predators, relocate herds, or shut the program down. It's multiplication and graphing, but it lands because the stakes feel real.
+- A **teacher guide** with a full 5-day schedule, learning objectives, and a vocabulary list
+- **5 core student worksheets** — prehistoric animals overview, the science of de-extinction, environmental impact, debate prep, and a final verdict activity
+- **4 extension activity packs** — a population math modeling exercise, a creature design challenge, a research case file format, and a media literacy unit built around Colossal Biosciences
 
-### 🦎 Creature Design Challenge — Science Meets Imagination
+That's a complete week of structured, cross-curricular content. Built in an afternoon rather than spread across multiple weekends.
 
-Students invent a fictional de-extinct animal by combining DNA from two or more real species. They draw it, label which features came from which animal and why, write up its habitat and diet, and then argue before a mock ethics committee whether it should be released into the wild.
-
-This one is especially good for students who aren't naturally drawn to traditional science tasks. Give a creative kid permission to invent a mammoth-eagle hybrid with sabre-tooth adaptations and watch them write three pages without being asked.
-
-### 🔍 The Lazarus File — Research With a Narrative Hook
-
-Students build a detective-style dossier on one extinct animal: vital stats, cause of extinction, closest living relative, scientific feasibility of de-extinction, and a final verdict. They present it to the class as a "briefing."
-
-The framing matters enormously here. "Do a research report" gets groans. "You're a detective presenting a case file to decide whether this species gets a second chance" gets investment.
-
-### 📰 De-Extinction in the News — Media Literacy Built In
-
-This one uses Colossal Biosciences as a real-world anchor. Students research what the company has *actually* achieved versus what the headlines claim, sort statements into "confirmed fact / in progress / science fiction," and then write their own balanced news article.
-
-In a world where kids consume a lot of content, teaching them to ask *who wrote this, when, and why* is arguably more important than the biology.
+The ideas and the judgment were mine. AI handled the blank page.
 
 ---
 
-## Making It a Full Experience, Not Just a Worksheet Pack
+## The Activities I'm Most Excited About
 
-The best feedback I've gotten on project-based learning is that the *environment* matters as much as the content. Some low-cost ideas that transform this from a topic into an experience:
+### 📊 Population Modeling — Real Math, Real Stakes
 
-**Rebrand the classroom.** A sign on the door, printed "Research Division" ID badges, a wall display called "The De-Extinction Files" that builds throughout the week — none of this costs money, but all of it tells students this week is different.
+Students start with 20 mammoths released into Siberia. The population doubles every 10 years. Each mammoth needs 500 km² of land. How long before they run out of space?
 
-**Do the strawberry DNA extraction.** Crushing a strawberry with dish soap, salt, and cold rubbing alcohol to pull out actual visible DNA strands is about 20 minutes, costs almost nothing, and never fails to get a reaction. It answers the question "but what actually *is* DNA?" better than any explanation.
+They fill in a table, plot the growth curve on a graph, and then face a committee decision: introduce predators, relocate herds, or shut the program down entirely. It's multiplication and graphing — but it lands because the context makes it feel like a real problem worth solving.
 
-**Run a Day 1 / Day 5 vote.** On Monday, ask: should we bring back the woolly mammoth? Record the vote publicly. Ask again on Friday. The shift — or the lack of shift — becomes its own discussion. Did learning change anyone's mind? Why or why not?
+### 🦎 Creature Design Challenge — Science Meets Creativity
 
-**End with a tribunal, not a test.** Assign students roles — scientist, farmer near the release zone, conservation biologist, government budget officer, Indigenous land community representative — and run a mock ethics committee hearing. There is no right answer, which means everyone has to actually *think* rather than remember.
+Students invent a fictional de-extinct animal by combining DNA from two or more real species. They draw it, label each feature with its DNA source, design its habitat and diet, and then argue before a mock ethics committee whether it should be released into the wild.
+
+This is my favorite activity for reaching students who don't always shine in traditional science tasks. Give a creative kid permission to invent a mammoth-eagle hybrid with sabre-tooth cat adaptations and suddenly they're writing three pages without being asked.
+
+### 🔍 The Lazarus File — Research as Detective Work
+
+Students build a case file on one extinct animal: vital stats, cause of extinction, closest living relative, scientific feasibility of de-extinction, and a final verdict. They present it to the class as a detective briefing.
+
+The framing is everything here. "Write a research report" gets groans. "Build a case file and present it like a detective briefing to decide whether this species gets a second chance" gets buy-in.
+
+### 📰 De-Extinction in the News — Media Literacy With Real Stakes
+
+Students research what Colossal Biosciences has *actually* achieved versus what the headlines claim, sort statements into fact / in progress / science fiction, and write their own balanced news article complete with quotes from both a supporter and a skeptic.
+
+This one connects directly to what I teach in technology class — understanding how information is produced, who produces it, and why. A press release from a company trying to raise money reads very differently than a peer-reviewed research paper. That's a skill worth building early.
 
 ---
 
-## Why This Matters for AI and Education
+## Making It an Experience, Not Just a Worksheet Pack
 
-I want to be clear about something: **AI didn't replace the teacher here. It replaced the blank page.**
+The content is only part of it. Here are some low-cost things that transform a good project into a genuinely memorable week:
 
-The ideas that made this project interesting came from knowing what engages this age group, what good project-based learning looks like, and what questions are worth asking. AI made it possible to take those instincts and build them into a complete, polished, ready-to-use resource — fast.
+**Rebrand the space.** A sign on the classroom door reading "Colossal Biosciences Research Division," printed ID badges with each student's scientist name and specialty, a wall display called "The De-Extinction Files" that grows throughout the week — none of this costs anything, but all of it signals that this week is different.
 
-For a busy teacher balancing 25 other things, or a parent trying to put together something genuinely enriching for a home educator or after-school group, that matters. The gap between "I have a great idea" and "I have something I can actually use Monday morning" used to be a weekend of work. Now it can be an afternoon conversation.
+**Do the strawberry DNA extraction.** Crush a strawberry with dish soap, salt, and cold rubbing alcohol. Within about 30 seconds, white stringy DNA strands float to the surface. Students can scoop them out with a toothpick. It's 20 minutes, costs almost nothing, and directly answers "but what actually *is* DNA?" in a way no explanation can match.
 
-There's something exciting about that — and also something worth thinking about carefully. AI is very good at generating *content*. It still takes a human to know whether that content is *right* for a specific group of kids, to spot what needs adjusting, and to actually stand in the room and make it come alive.
+**Run a Day 1 / Day 5 vote.** On Monday ask: should we bring back the woolly mammoth? Record the results publicly. Ask again on Friday. The shift — or the lack of shift — becomes its own discussion. Did learning actually change anyone's mind?
 
-The tool is extraordinary. The teacher still matters.
+**End with a tribunal, not a test.** Assign students roles — lead scientist, farmer near the release zone, conservation biologist, government budget officer, Indigenous land community representative — and run a mock ethics committee hearing on the final day. There's no right answer, which means everyone has to actually *think* rather than remember.
+
+---
+
+## Reaching Out Beyond the Classroom
+
+One thing I'd strongly encourage for any school doing this project: try to bring in an outside voice. You don't need someone who works specifically in de-extinction. A university biology or genetics professor, a local vet, a zookeeper, a wildlife conservationist — anyone who works with animals or genetics can speak to the real science, and students asking actual experts actual questions is often the moment that makes science feel like something *they* could do someday.
+
+If you're in Connecticut, there are some great options close by:
+
+- **Yale University** — the biology and ecology departments do school outreach, and the Yale Peabody Museum of Natural History is practically made for this topic
+- **University of Connecticut** — strong life sciences programs with outreach programs worth exploring
+- **Beardsley Zoo in Bridgeport** — Connecticut's only zoo has an education department and is worth a direct call
+- **Mystic Aquarium** — does school education programs and is very accessible
+
+And honestly — consider emailing **Colossal Biosciences** directly. It's a long shot, but their communications team might respond to a school project built specifically around their work. The worst they can say is nothing.
+
+---
+
+## The Honest Take on AI in the Classroom (and in Planning)
+
+I think a lot about this, because I teach technology and these are exactly the conversations I have with students.
+
+AI is an extraordinary tool for educators when used with intention. It doesn't replace curriculum judgment, knowledge of your students, or the human relationships that make teaching work. But it can collapse the distance between a strong idea and a usable resource — and for teachers who are already stretched thin, that matters.
+
+The way I used it for this project is also, I'd argue, a good model to show students. I didn't just ask for "a STEAM project about dinosaurs" and accept whatever came back. I directed it, pushed back, asked for harder questions, requested specific formats, and edited what didn't fit my students or my context. The thinking was mine. The drafting was collaborative.
+
+That's not so different from how we want students to use these tools — as an accelerant for their own ideas, not a replacement for having ideas in the first place.
 
 ---
 
 ## Download the Project
 
-I've packaged the full de-extinction STEM project — teacher guide, 5 core worksheets, and all 4 extension activity packs — as a Word document (.docx) so you can edit, adapt, and make it your own.
+I've packaged the full de-extinction STEAM project — teacher guide, 5 core worksheets, and 4 extension activity packs — as a Word document so you can open it, edit it, and make it work for your students.
 
-**👉 [Download: De-Extinction STEM Week Project (.docx)](/downloads/DeExtinction_STEM_Project.docx)**
+Swap in different animals. Adjust the reading level up or down. Cut the activities that don't fit your schedule. Add your school name. That's the point.
+
+**👉 [Download: De-Extinction STEAM Week Project (.docx)](/downloads/DeExtinction_STEM_Project.docx)**
 
 **👉 [Download: De-Extinction Four Activities Pack (.docx)](/downloads/DeExtinction_Four_Activities.docx)**
 
-Swap in your own animals. Adjust the reading level. Remove the activities that don't fit your time. Add your school name to the header. That's the point.
-
-If you use it — or adapt it into something even better — I'd genuinely love to hear about it.
+If you use it — or build something better from it — I'd love to hear about it.
 
 ---
 
 ## One Last Thing
 
-The question at the heart of this project — *should we bring back prehistoric animals?* — doesn't have a right answer. And that's exactly why it's worth asking.
+The question at the center of this project — *should we bring back prehistoric animals?* — doesn't have a right answer. And that's exactly why it's worth asking.
 
-The best STEM education doesn't just teach kids what scientists know. It teaches them how scientists *think* — how to weigh evidence, hold two competing ideas at once, argue a position while staying genuinely open to being wrong.
+The best STEAM education doesn't just teach kids what scientists know. It teaches them how scientists *think* — how to weigh evidence, hold two competing ideas at once, argue a position while staying genuinely open to being wrong.
 
-If a student walks out of this week more curious about genetics, or more skeptical of a headline, or just more comfortable saying "I'm not sure, but here's what I think" — that's the win.
+If a student walks out of this week more curious about genetics, more skeptical of a headline, or just more comfortable saying "I'm not sure yet, but here's what I think" — that's the win.
 
-A woolly mammoth walking the Siberian tundra would be extraordinary. A classroom full of kids who know how to think about whether it should? That might be more important.
+A woolly mammoth walking the Siberian tundra would be pretty extraordinary. A classroom full of kids who know how to think about whether it should? That might be more important.
 
 ---
 
-*Have questions, ideas, or adaptations to share? Drop them in the comments or reach out through the contact page.*
+*Questions, ideas, or adaptations to share? Drop them in the comments or reach out through the contact page.*
 
 *— maker404*
