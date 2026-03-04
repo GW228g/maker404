@@ -49,5 +49,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Auto-update sitemap [skip ci]"
+          git commit -m "Auto-update sitemap"
           git push
