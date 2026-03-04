@@ -1,0 +1,53 @@
+name: Generate Sitemap
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - sitemap.xml
+  workflow_dispatch:
+
+jobs:
+  sitemap:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+
+      - name: Install Jekyll and plugins
+        run: gem install jekyll minima jekyll-feed jekyll-sitemap --no-document
+
+      - name: Build site with Jekyll
+        env:
+          JEKYLL_ENV: production
+        run: jekyll build --trace
+
+      - name: Copy generated sitemap
+        run: |
+          test -f _site/sitemap.xml
+          cp _site/sitemap.xml sitemap.xml
+
+      - name: Commit updated sitemap
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add sitemap.xml
+
+          if git diff --cached --quiet; then
+            echo "No sitemap changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Auto-update sitemap [skip ci]"
+          git push
