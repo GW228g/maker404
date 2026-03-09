@@ -37,11 +37,3 @@ Ready-to-use lesson plans, activity guides, and reference materials for your cla
 - [Migration Guide](/downloads/finch2/files/Finch2_Migration_Guide.docx) – Converting old Finch code to Finch2
 
 [Read how I created these in under an hour using AI →](/blog/2026/02/12/ai-lesson-migration/)
-
----
-
-## 📦 More Resources Coming Soon
-
-Check back for additional lesson plans, project templates, and classroom guides.
-
-[Subscribe for updates](/contact/)
